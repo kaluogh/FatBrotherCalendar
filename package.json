@@ -1,0 +1,16 @@
+{
+  "name": "fatbrothercalendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "window": {
+    "width": 500,
+    "height": 800,
+    "title": "Fat Brother Calendar"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

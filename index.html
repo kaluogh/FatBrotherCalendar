@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" 
+content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Fat Brother Calendar</title>
+<link rel="stylesheet" href="css/calendar.css">
+</head>
+<body>
+
+    <div id="calendar" class="calendar"></div>
+
+    <form id="reset-container" action="" >
+        <input id="input-year" required min="1991" max="2061" type="number" class="inputNewDate" placeholder="Year"/>
+        <input id="input-month" required min="1" max="12" type="number" class="inputNewDate" placeholder="Month"/>
+        <input id="input-day" required min="1" max="31" type="number" class="inputNewDate" placeholder="Day"/>
+        <input id="reset-submit" type="submit"class="inputNewDate" value="Reset"
+            style="opacity: 1;background-color: Crimson;color: white;font-weight: bold;width: 10rem;"/> 
+    </form>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/calendar.js"></script>
+
+</body>
+</html>
